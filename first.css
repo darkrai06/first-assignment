@@ -25,6 +25,9 @@
     padding-left: 10px;
     padding-right: 10px;
   }
+  .divhead p{
+    margin-top: 24px;
+  }
   .btn{
     width: 208px;
     height: 66px;
@@ -66,6 +69,7 @@
     color: rgb(13, 19, 33);
     font-size: 16px;
     font-weight: 400;
+    margin-top: 24px;
   }
   .two{
     background-color: white;
@@ -103,11 +107,12 @@
     margin-top: 88px;
     margin-bottom: 48px;
     margin-left: 292px;
-    margin-right: 296px;
+    margin-right: 292px;
     text-align: center;
     display: flex;
     flex-direction: column;
     height: 115px;
+    width: 852px;
     justify-content: space-between;
   }
   .vid{
@@ -127,4 +132,115 @@
     width: 1076px;
     height: 550px;
     border-radius: 16px;
+  }
+  .skill{
+    width: 1140px;
+    height: 300px;
+    margin-left: 150px;
+    margin-right: 150px;
+    display: flex;
+    gap: 24px;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .html1{
+    width: 364px;
+    height: 300px;
+    padding: 40px;
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+    margin-top: 48px;
+  }
+  .html2{
+    width: 364px;
+    height: 300px;
+    padding: 40px;
+    border-radius: 16px;
+    background: rgba(0, 76, 232, 0.05);
+    margin-top: 48px;
+  }
+  .html3{
+    width: 364px;
+    height: 300px;
+    padding: 40px;
+    border-radius: 16px;
+    background: rgba(255, 223, 0, 0.05);
+    margin-top: 48px;
+  }
+  .linker{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+  }
+  .skill img,.skill h1,.skill p{
+    margin-bottom: 24px;
+  }
+  .support{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 150px;
+    margin-right: 150px;
+    width: 1044px;
+    height: 185px;
+    background-image: url(assets/handshake.jpg);
+    background-color: rgba(0, 0, 0, 0.4);
+    background-blend-mode: overlay;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 16px;
+    padding: 64px 48px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .support p{
+    margin-top: 16px;
+    margin-bottom: 24px;
+  }
+  .last{
+    width: 508px;
+    height: 19px;
+    padding: 19px 20px 19px 20px;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    color: black
+    font-size: 16px;
+    font-weight: 400;
+  }
+  .lb{
+    width: 120px;
+    height: 57px;
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    padding: 17px 20px 17px 20px;
+  }
+  ::placeholder {
+    color: rgba(13, 19, 33, 0.4);
+    font-size: 16px;
+    font-weight: 400;
+  }
+  .done{
+    height: 36px;
+    width: 1140px;
+    background-color: rgba(13, 19, 33, 0.03);
+    border-radius: 16px;
+    padding: 32px 150px 32px 150px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .commit{
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+  }
+  .gap{
+    display: flex;
+    gap: 24px;
   }
