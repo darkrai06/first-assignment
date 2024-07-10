@@ -3,13 +3,18 @@
     font-optical-sizing: auto;
     font-style: normal;
   }
+  *{
+    padding: 0px;
+    border: 0px;
+    margin: 0px;
+  }
   .matha{
     width: 1440px;
     height: 652px;
     background-image: url(assets/Hero-bg.png);
   }
   .divhead{
-    margin-top: 26px;
+    padding-top: 26px;
     margin-left: 221px;
     margin-right: 221px;
     margin-bottom: 44px;
@@ -68,8 +73,8 @@
     margin-left: 97px;
     margin-right: 97px;
     display: flex;
-    padding-left: 48px;
-    padding-right: 48px;
+    border-radius: 16px;
+    padding: 48px;
     justify-content: space-between;
   }
   .learn{
@@ -88,4 +93,38 @@
     font-size: 20px;
     font-weight: 600;
     text-decoration: none;
+  }
+  .inside{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .inspire{
+    margin-top: 88px;
+    margin-bottom: 48px;
+    margin-left: 292px;
+    margin-right: 296px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    height: 115px;
+    justify-content: space-between;
+  }
+  .vid{
+    width: 1140px;
+    margin-left: 148px;
+    margin-right: 152px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .hero{
+    width: 1076px;
+    height: 550px;
+    border-radius: 16px;
   }
