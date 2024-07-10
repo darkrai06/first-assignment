@@ -8,6 +8,26 @@
     border: 0px;
     margin: 0px;
   }
+  .suru{
+    height: 131px;
+    margin-left: 150px;
+    margin-right: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .resume{
+    width: 228px;
+    height: 58px;
+    padding: 17px 24px 17px 24px;
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+    border-radius: 8px;
+    color: rgb(13, 19, 33);
+    font-size: 18px;
+    font-weight: 600;
+    background-color: white;
+  }
   .matha{
     width: 1440px;
     height: 652px;
@@ -207,7 +227,7 @@
     border: 1px solid rgba(13, 19, 33, 0.15);
     border-radius: 8px;
     background: rgb(255, 255, 255);
-    color: black
+    color: black;
     font-size: 16px;
     font-weight: 400;
   }
